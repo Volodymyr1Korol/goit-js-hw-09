@@ -1,0 +1,29 @@
+button {
+    color: #fff;
+    left: 15px;
+    top: 25px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 22px;
+    padding: 10px 25px;
+    margin-top: 35px;
+    font-size: 1.4em;
+    background-color: #0c8884;
+}
+
+input {
+    border: none;
+    outline: none;
+    display: inline-block;
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 22px;
+    width: 120px;
+    margin-right: 10px;
+    margin-left: 30px;
+    padding: 0 20px;
+}
+
+button:disabled {
+    background-color: rgb(148, 155, 161);
+}
