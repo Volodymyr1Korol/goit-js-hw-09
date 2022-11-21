@@ -528,15 +528,20 @@ function createPromptSubmit(e) {
     }
 }
 function createPromise(position, delay) {
-    const shouldResolve = Math.random() > 0.3;
-    const objectPromise = {
-        position,
-        delay
-    };
-    return new Promise((resolve, reject)=>{
-        if (shouldResolve) resolve(objectPromise);
-        reject(objectPromise);
+    const promise = new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+            const shouldResolve = Math.random() > 0.3;
+            if (shouldResolve) resolve({
+                position,
+                delay
+            });
+            else reject({
+                position,
+                delay
+            });
+        }, delay);
     });
+    return promise;
 }
 
 },{"notiflix/build/notiflix-notify-aio":"eXQLZ"}],"eXQLZ":[function(require,module,exports) {
