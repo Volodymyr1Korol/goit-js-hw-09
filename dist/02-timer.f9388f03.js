@@ -590,7 +590,7 @@ class Timer {
 const timer = new Timer();
 refs.startBtn.addEventListener("click", ()=>timer.startTimer());
 
-},{"flatpickr":"llQu5","notiflix/build/notiflix-notify-aio":"eXQLZ","flatpickr/dist/flatpickr.min.css":"eVN6V","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","flatpickr/dist/themes/dark.css":"lRCCN"}],"llQu5":[function(require,module,exports) {
+},{"flatpickr":"llQu5","notiflix/build/notiflix-notify-aio":"eXQLZ","flatpickr/dist/flatpickr.min.css":"eVN6V","flatpickr/dist/themes/dark.css":"lRCCN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"llQu5":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _options = require("./types/options");
